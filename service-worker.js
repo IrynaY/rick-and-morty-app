@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/IrynaY/rick-and-morty-app/precache-manifest.19c6280960944e520ead3e8e9ea15a84.js"
+  "/rick-and-morty-app/precache-manifest.e79a1904898e616de760e346a283b252.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/IrynaY/rick-and-morty-app/index.html", {
+workbox.routing.registerNavigationRoute("/rick-and-morty-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
